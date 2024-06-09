@@ -66,7 +66,7 @@ const Result = ({ loanData }) => {
             <strong>Loan Amount: </strong> ${loanAmount}
           </p>
           <p className="mb-2 pl-2 block text-[#868484]">
-            <strong>Interest Rate: </strong> ${interestRate}
+            <strong>Interest Rate: </strong> {interestRate}%
           </p>
           <p className="mb-2 pl-2 block text-[#868484]">
             <strong>Loan Term: </strong> {loanTerm} years
