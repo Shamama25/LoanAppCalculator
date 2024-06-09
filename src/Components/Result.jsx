@@ -9,7 +9,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 const Result = ({ loanData }) => {
   const { loanAmount, interestRate, loanTerm } = loanData;
   const P = loanAmount;
-  const r = interestRate / 12;
+  const r = interestRate / 12 / 100;
   const n = loanTerm * 12;
 
   const monthlyPayment = (
